@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282c34;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 20px;
+}
+
+.header-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

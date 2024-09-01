@@ -1,0 +1,1 @@
+mysqldump -u root -p zimyo > database_backup_file.sql
